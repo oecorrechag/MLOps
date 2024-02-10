@@ -1,0 +1,13 @@
+
+docker build -t nivel_0 .
+
+docker run --name nivel_0 -p 8000:80 nivel_0
+
+http://localhost:8000/docs
+
+
+## taller 
+
+docker run --name nivel_0 -p 8989:8989 nivel_0
+
+http://localhost:8989/docs
