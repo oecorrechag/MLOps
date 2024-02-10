@@ -19,7 +19,7 @@ remenber config your local git
 ```Bash
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com" 
-git clone https://github.com/DanielFchavarro/MLOps.git
+git clone https://github.com/oecorrechag/MLOps.git
  ```
 
 
