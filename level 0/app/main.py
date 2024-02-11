@@ -1,4 +1,6 @@
 # 1. Library imports
+import json
+from fastapi.responses import JSONResponse
 import uvicorn
 from fastapi import FastAPI
 from Penguins_val import Penguins
@@ -15,7 +17,13 @@ lr = pickle.load(open('cl_lr.pkl', 'rb'))
 # 3. Index route, opens automatically on http://127.0.0.0:8000
 @app.get('/')
 def index():
-    return {'message': 'Hello, World'}
+    return {'message': 'Welcome to level 0 MLOps PUJ, you can predict pengüin specie'}
+
+@app.get('/examples')
+def index():      
+        json_data = json.load(open("examples.json"))
+        # Devolver el JSON como respuesta
+        return JSONResponse(content=json_data)
 
 # 4. Expose the prediction functionality, make a prediction from the passed
 #    JSON data and return the predicted Bank Note with the confidence
