@@ -26,7 +26,3 @@ open your browser [predict penüing specie](http://localhost:8989/docs#/default/
 
 -chose model
 -if you want you can use body request [examples](http://localhost:8989/examples) to build body rrequest json
- 
-
-
-
