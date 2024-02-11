@@ -12,14 +12,14 @@
 remember: you must be in the directory where the main.py file is located "level_0/app"
 
 ### Run app in local server from docker image
-create docker image
+create docker image, builf docker image, replace <docker_image_name> with your docker image name
+
 ```bash
-# builf docker image, replace <docker_image_name> with your docker image name
 docker build -t level_0 .
 ```
+After deploy docker image in local server
 ```bash
-# deploy docker image in local server
-docker Run --name  level_0 -p 8989:8989  level_0
+docker run --name nivel_0 -p 8989:8989 nivel_0
 ```
 ### Test API
 open your browser [predict penüing specie](http://localhost:8989/docs#/default/predict_penguins_predict_post)
