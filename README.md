@@ -1,6 +1,6 @@
 # MLOps
 
-![alt text](https://github.com/oecorrechag/experimentos/blob/main/images/logo.PNG)
+![alt text](https://github.com/oecorrechag/MLOps/tree/main/images/logo.PNG)
 
 "MLOps" was created to document all topics and development covered in the MLOps class. Written in Python 3.
 
