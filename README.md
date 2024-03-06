@@ -42,13 +42,13 @@ docker compose up
 
 4. This command will display the following:
 
-![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/open_html.PNG)
+![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/open_html.png)
 
 In the image, the console output is displayed, and the box indicates the token. This token should be entered into an internet browser (of your choice) to launch the Jupyter Notebook.
 
 5. Once inside Jupyter, click on the "Build" option to access the content of Project 1. 
 
-![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/open_jupyter.PNG)
+![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/open_jupyter.png)
 
 6. Open the file TFT_convertype.ipynb.
 
