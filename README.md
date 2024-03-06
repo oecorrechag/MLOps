@@ -1,34 +1,85 @@
-# MLOps
+# Project 1 - Grupo 1
 
-![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/logo.PNG)
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/logo.PNG)
 
-"MLOps" was created to document all topics and development covered in the MLOps class. Written in Python 3.
+Class: MLOps <br>
+Code: <br>
+Professor:  <br>
+Members:
 
-## Authors
+- s
+- d
+- ss
 
-- Oscar Correa - [@oecorrechag](https://github.com/oecorrechag)
-- Daniel Chavarro - [@anielFchavarro](https://github.com/anielFchavarro)
-- Cristhian Palencia - [@cpalenc](https://github.com/cpalenc)
+## Table of Contents
 
-## Run app
-remember: you must be in the directory where the main.py file is located "level_0/app"
+- [Usar con Docker](#Docker)
+- [Usar con Google colab](#Google)
 
-### Run app in local server from docker image
-create docker image, builf docker image, replace <docker_image_name> with your docker image name
+### Docker
+
+How to run docker compose
+
+1. Download the repository.
 
 ```bash
-docker build -t level_0 .
+ssh git clone https://github.com/cpalenc/MLOps.git
 ```
-After deploy docker image in local server
-```bash
-docker run --name nivel_0 -p 8989:8989 nivel_0
-```
-### Test API
-open your browser [predict penüing specie](http://localhost:8989/docs#/default/predict_penguins_predict_post)
 
--chose model
--if you want you can use body request [examples](http://localhost:8989/examples) to build body rrequest json
+2. Navigate to the PROYECTO_1 branch within the project_1 folder.
+
+```bash
+cd MLOps/
+git checkout proyecto_1
+cd proyecto_1
+```
+
+3. Run the following Docker command:
+
+```bash
+docker compose up
+```
+
+4. This command will display the following:
+
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/open_html.PNG)
+
+In the image, the console output is displayed, and the box indicates the token. This token should be entered into an internet browser (of your choice) to launch the Jupyter Notebook.
+
+5. Once inside Jupyter, click on the "Build" option to access the content of Project 1. 
+
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/open_jupyter.PNG)
+
+6. Open the file TFT_convertype.ipynb.
+
+Within this file, you will find the solution to the project. 
+
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/open_project.PNG)
+
+### Google
+
+There is an alternative to using the document using Google Colab. To utilize it, please follow these steps:
+
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/google.PNG)
+
+1. Upload the TFT_convertype.ipynb file into a Google Colab Notebook.
+
+2. Add the additional modules (listed below) in the files section that are necessary to run the TFT_convertype.ipynb Notebook.
+
+    - cover_type_constans.py
+    - cover_type_transform.py
+
+3. Add the following code statement before the "librerias" cell.
+
+```bash
+!pip install tfx
+```
+Nota: Installing this library may take between 5 to 10 minutes.
+
+4. It is possible that during the first execution, it may request a kernel restart; if so, the kernel will restart automatically.
+
+![alt text](https://github.com/oecorrechag/experimentos/blob/main/imagenes/google_kernel.PNG)
 
 <hr>
 
-[Go to Top](#MLOps)
+[Go to Top](#Table-of-Contents)

@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  app:
+    container_name: app
+    image: app
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - 8989:8989

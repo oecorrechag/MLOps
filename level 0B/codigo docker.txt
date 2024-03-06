@@ -1,0 +1,24 @@
+
+docker build -t nivel_0 .
+
+docker run --name nivel_0 -p 8000:80 nivel_0
+
+http://localhost:8000/docs
+
+
+## taller Nivel 0
+
+docker build -t level_0 .
+
+docker run --name level_0 -p 8989:8989 level_0
+
+http://localhost:8989/docs
+http://localhost:8989/docs#/default/predict_penguins_predict_post
+
+## taller Nivel 1
+
+docker compose build
+
+docker compose up
+
+http://localhost:8989/docs#/default/predict_penguins_predict_post
