@@ -3,13 +3,13 @@
 ![alt text](https://github.com/oecorrechag/MLOps/blob/main/images/logo.PNG)
 
 Class: MLOps <br>
-Code: <br>
-Professor:  <br>
+Code: 11179 <br>
+Professor: Cristian Diaz Alvarez <br>
 Members:
 
-- s
-- d
-- ss
+    Daniel Chavarro - @anielFchavarro
+    Cristhian Palencia - @cpalenc
+    Oscar Correa - @oecorrechag
 
 ## Table of Contents
 

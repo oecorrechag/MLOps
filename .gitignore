@@ -30,3 +30,5 @@ docs/
 
 # Otros archivos
 *.ipynb
+
+data/
